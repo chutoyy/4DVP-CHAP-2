@@ -1,4 +1,4 @@
-name: "say hello world"
+name: "say numéro de job"
 on:
   push:
 
