@@ -1,6 +1,6 @@
 name: "say numéro de job"
 on:
-  push:
+  #push:
 
 jobs:
   first_job:
@@ -23,4 +23,4 @@ jobs:
     steps:
       - name: "say 3rd"
         run: |
-          echo "Ceci est le troisième job"
+          echo "Ceci est le troisième job" 

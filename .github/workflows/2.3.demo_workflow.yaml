@@ -1,0 +1,15 @@
+name: "say hello on demo branch"
+on:
+  push:
+    branches:
+      - demo
+
+jobs:
+  first_job:
+    name: "say hello world"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "say 1st"
+        run: |
+          echo "hello world"
+  
