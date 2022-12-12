@@ -10,17 +10,17 @@ jobs:
       - name: "say 1st"
         run: |
           echo "Ceci est le premier job"
-    second_job:
-      name: "say 2nd"
-      runs-on: ubuntu-latest
-      steps:
-        - name: "say 2nd"
-          run: |
-            echo "Ceci est le second job"
-    third_job:
-      name: "say 3rd"
-      runs-on: ubuntu-latest
-      steps:
-        - name: "say 3rd"
-          run: |
-            echo "Ceci est le troisième job"
+  second_job:
+    name: "say 2nd"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "say 2nd"
+        run: |
+          echo "Ceci est le second job"
+  third_job:
+    name: "say 3rd"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "say 3rd"
+        run: |
+          echo "Ceci est le troisième job"
